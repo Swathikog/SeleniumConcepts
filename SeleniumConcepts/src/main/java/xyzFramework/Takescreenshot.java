@@ -18,7 +18,7 @@ public class Takescreenshot {
 			FileUtils.copyFile(scrFile, new File("./src/test/java/screenshots/"+filename+".jpg"));
 		}catch(IOException e) {
 			e.printStackTrace();
-			System.out.println("This is taking screenshot in");
+			System.out.println("This is taking screenshot in the");
 		}
     }
 }
